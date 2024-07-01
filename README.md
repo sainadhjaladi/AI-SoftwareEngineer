@@ -59,7 +59,29 @@ The AI software engineer is designed to assist in various software development t
 
 The self-operating computer will start and will prompt you for commands. You can issue commands using the following format:
 
-CLICK: Click on a specific area on the screen. Example: CLICK{{"x":"50%","y":"60%","description":"Click: Google Search field"}}
+
+
+CLICK: Click on a specific area on the screen. Example: CLICK{{"x":"50%","y":"60%","description":"
+Click: Google Search field"}}
 TYPE: Type some text. Example: TYPE "https://www.amazon.com/"
 SEARCH: Search for an application on Windows. Example: SEARCH "Spotify"
 DONE: Signal that the previous task is completed.
+
+All the above actions will be specified as a program in the main.py file of our 
+folder. Based on this our agent will work and perform the tasks given according 
+to the instructions
+
+ And one more thing to mention is about how it can perform these tasks and how 
+it should respond. So to click at some point it needs to calculate the XY 
+coordinates of our system and know the dimensions. And this is the point where 
+our LLM(GPT) can’t help us so we need something to calculate this on our 
+operating system. So this the point where Gen engineering helps to do this as 
+Gen engineering knows which are available for us to help and build these kinds 
+of solution
+
+
+So when it comes to Python there is a library called Pi Auto GUI that performs 
+this exact task so we need to install this library in a script that will give all the 
+coordinates and also access the keyboard and cursor of the computer. So just by 
+connecting this library with GPT-4 vision we can calculate the system
+measurements and act accordingly to perform the tasks
