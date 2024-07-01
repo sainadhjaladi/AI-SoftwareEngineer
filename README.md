@@ -44,6 +44,7 @@ The AI software engineer is designed to assist in various software development t
     python3 -m venv venv
 
 4. **Activate the virtual environment:**
+
     source venv/bin/activate  # Linux/macOS
 
     source venv/Scripts/activate  # Windows
@@ -63,8 +64,11 @@ The self-operating computer will start and will prompt you for commands. You can
 
 
 CLICK: Click on a specific area on the screen. Example: CLICK{{"x":"50%","y":"60%","description":"Click: Google Search field"}}
+
 TYPE: Type some text. Example: TYPE "https://www.amazon.com/"
+
 SEARCH: Search for an application on Windows. Example: SEARCH "Spotify"
+
 DONE: Signal that the previous task is completed.
 
 All the above actions will be specified as a program in the main.py file of our 
