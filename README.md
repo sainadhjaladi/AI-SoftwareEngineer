@@ -61,8 +61,7 @@ The self-operating computer will start and will prompt you for commands. You can
 
 
 
-CLICK: Click on a specific area on the screen. Example: CLICK{{"x":"50%","y":"60%","description":"
-Click: Google Search field"}}
+CLICK: Click on a specific area on the screen. Example: CLICK{{"x":"50%","y":"60%","description":"Click: Google Search field"}}
 TYPE: Type some text. Example: TYPE "https://www.amazon.com/"
 SEARCH: Search for an application on Windows. Example: SEARCH "Spotify"
 DONE: Signal that the previous task is completed.
