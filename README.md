@@ -45,6 +45,7 @@ The AI software engineer is designed to assist in various software development t
 
 4. **Activate the virtual environment:**
     source venv/bin/activate  # Linux/macOS
+
     source venv/Scripts/activate  # Windows
 
 5. **Install dependencies:**
